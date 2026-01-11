@@ -99,6 +99,8 @@ Test sample queries or type your own:
 
 _HUMAN IN THE LOOP_: In case of a vague query, it asks for clarification ONE time; if still unclear, it escalates to human.
 
+<img width="1193" height="238" alt="image" src="https://github.com/user-attachments/assets/1d240af2-9042-4f66-b61d-b2e674ec3ff9" />
+
 ### Run Evaluation
 ```bash
 python evaluate.py
