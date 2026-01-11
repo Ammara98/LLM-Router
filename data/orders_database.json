@@ -1,0 +1,83 @@
+{
+  "ORD-12345": {
+    "order_id": "ORD-12345",
+    "customer_name": "John Doe",
+    "status": "shipped",
+    "items": [
+      {
+        "name": "Wireless Headphones",
+        "quantity": 1,
+        "price": 79.99
+      },
+      {
+        "name": "USB Cable",
+        "quantity": 2,
+        "price": 9.99
+      }
+    ],
+    "total": 99.97,
+    "tracking_number": "TRK-9876543210",
+    "carrier": "UPS",
+    "estimated_delivery": "2026-01-12",
+    "order_date": "2026-01-05"
+  },
+  "ORD-67890": {
+    "order_id": "ORD-67890",
+    "customer_name": "Jane Smith",
+    "status": "processing",
+    "items": [
+      {
+        "name": "Laptop Stand",
+        "quantity": 1,
+        "price": 49.99
+      }
+    ],
+    "total": 49.99,
+    "tracking_number": null,
+    "carrier": null,
+    "estimated_delivery": "2026-01-15",
+    "order_date": "2026-01-08"
+  },
+  "ORD-11111": {
+    "order_id": "ORD-11111",
+    "customer_name": "Bob Johnson",
+    "status": "delivered",
+    "items": [
+      {
+        "name": "Phone Case",
+        "quantity": 1,
+        "price": 19.99
+      },
+      {
+        "name": "Screen Protector",
+        "quantity": 1,
+        "price": 12.99
+      }
+    ],
+    "total": 32.98,
+    "tracking_number": "TRK-1111111111",
+    "carrier": "FedEx",
+    "estimated_delivery": "2026-01-05",
+    "actual_delivery": "2026-01-05",
+    "order_date": "2026-01-01"
+  },
+  "ORD-99999": {
+    "order_id": "ORD-99999",
+    "customer_name": "Alice Williams",
+    "status": "cancelled",
+    "items": [
+      {
+        "name": "Bluetooth Speaker",
+        "quantity": 1,
+        "price": 59.99
+      }
+    ],
+    "total": 59.99,
+    "tracking_number": null,
+    "carrier": null,
+    "estimated_delivery": null,
+    "order_date": "2026-01-03",
+    "cancellation_date": "2026-01-04",
+    "cancellation_reason": "Customer request"
+  }
+}

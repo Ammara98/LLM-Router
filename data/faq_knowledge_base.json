@@ -1,0 +1,50 @@
+{
+  "store_hours": {
+    "keywords": ["hours", "open", "close", "time", "when", "schedule"],
+    "question": "What are your store hours?",
+    "answer": "We're open Monday-Friday 9 AM to 8 PM, Saturday 10 AM to 6 PM, and Sunday 11 AM to 5 PM.",
+    "category": "general"
+  },
+  "return_policy": {
+    "keywords": ["return", "refund", "exchange", "money back", "give back"],
+    "question": "What is your return policy?",
+    "answer": "We accept returns within 30 days of purchase with original receipt. Items must be unused and in original packaging.",
+    "category": "policy"
+  },
+  "shipping": {
+    "keywords": ["shipping", "delivery", "ship", "long", "fast", "arrive"],
+    "question": "How long does shipping take?",
+    "answer": "Standard shipping takes 5-7 business days. Express shipping takes 2-3 business days. Free shipping on orders over $50.",
+    "category": "shipping"
+  },
+  "shipping_cost": {
+    "keywords": ["shipping", "cost", "price", "free", "charge"],
+    "question": "How much does shipping cost?",
+    "answer": "Standard shipping is $5.99. Express shipping is $12.99. We offer free shipping on all orders over $50!",
+    "category": "shipping"
+  },
+  "payment_methods": {
+    "keywords": ["payment", "pay", "credit", "card", "paypal", "accept", "visa", "mastercard"],
+    "question": "What payment methods do you accept?",
+    "answer": "We accept Visa, Mastercard, American Express, PayPal, and Apple Pay.",
+    "category": "payment"
+  },
+  "contact": {
+    "keywords": ["contact", "support", "help", "email", "phone", "call", "reach"],
+    "question": "How can I contact customer service?",
+    "answer": "You can reach us at support@store.com or call 1-800-SHOP-NOW. We respond within 24 hours.",
+    "category": "support"
+  },
+  "tracking": {
+    "keywords": ["track", "tracking", "where", "package"],
+    "question": "How do I track my package?",
+    "answer": "You can track your package using the tracking number sent to your email. Visit our tracking page or use the carrier's website.",
+    "category": "shipping"
+  },
+  "warranty": {
+    "keywords": ["warranty", "guarantee", "defect", "broken"],
+    "question": "What is your warranty policy?",
+    "answer": "All products come with a 1-year manufacturer warranty covering defects. Extended warranties are available at checkout.",
+    "category": "policy"
+  }
+}

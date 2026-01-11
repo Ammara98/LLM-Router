@@ -1,0 +1,169 @@
+{
+  "test_cases": [
+    {
+      "query": "What are your store hours?",
+      "expected_intent": "faq",
+      "category": "store_info"
+    },
+    {
+      "query": "Can I return an item?",
+      "expected_intent": "faq",
+      "category": "returns"
+    },
+    {
+      "query": "How long is shipping?",
+      "expected_intent": "faq",
+      "category": "shipping"
+    },
+    {
+      "query": "What payment methods do you accept?",
+      "expected_intent": "faq",
+      "category": "payment"
+    },
+    {
+      "query": "How do I contact support?",
+      "expected_intent": "faq",
+      "category": "support"
+    },
+    {
+      "query": "Do you accept credit cards?",
+      "expected_intent": "faq",
+      "category": "payment"
+    },
+    {
+      "query": "What's your refund policy?",
+      "expected_intent": "faq",
+      "category": "returns"
+    },
+    {
+      "query": "Do you ship internationally?",
+      "expected_intent": "faq",
+      "category": "shipping"
+    },
+    {
+      "query": "How much does delivery cost?",
+      "expected_intent": "faq",
+      "category": "shipping"
+    },
+    {
+      "query": "Can I exchange a product?",
+      "expected_intent": "faq",
+      "category": "returns"
+    },
+    {
+      "query": "What's your email address?",
+      "expected_intent": "faq",
+      "category": "support"
+    },
+    {
+      "query": "When are you open on weekends?",
+      "expected_intent": "faq",
+      "category": "store_info"
+    },
+    {
+      "query": "Do you have a warranty?",
+      "expected_intent": "faq",
+      "category": "policy"
+    },
+    {
+      "query": "Is there free shipping?",
+      "expected_intent": "faq",
+      "category": "shipping"
+    },
+    {
+      "query": "Can I pay with PayPal?",
+      "expected_intent": "faq",
+      "category": "payment"
+    },
+    {
+      "query": "Where is my order ORD-12345?",
+      "expected_intent": "order_status",
+      "category": "tracking"
+    },
+    {
+      "query": "Track order ORD-67890",
+      "expected_intent": "order_status",
+      "category": "tracking"
+    },
+    {
+      "query": "Order status ORD-11111",
+      "expected_intent": "order_status",
+      "category": "tracking"
+    },
+    {
+      "query": "When will ORD-12345 arrive?",
+      "expected_intent": "order_status",
+      "category": "tracking"
+    },
+    {
+      "query": "Has my order ORD-99999 shipped?",
+      "expected_intent": "order_status",
+      "category": "tracking"
+    },
+    {
+      "query": "Check status of ORD-67890",
+      "expected_intent": "order_status",
+      "category": "tracking"
+    },
+    {
+      "query": "My order number is ORD-11111, where is it?",
+      "expected_intent": "order_status",
+      "category": "tracking"
+    },
+    {
+      "query": "I need to track ORD-12345",
+      "expected_intent": "order_status",
+      "category": "tracking"
+    },
+    {
+      "query": "What's the status of order ORD-99999?",
+      "expected_intent": "order_status",
+      "category": "tracking"
+    },
+    {
+      "query": "ORD-67890 tracking please",
+      "expected_intent": "order_status",
+      "category": "tracking"
+    },
+    {
+      "query": "Hello",
+      "expected_intent": "unclear",
+      "category": "greeting"
+    },
+    {
+      "query": "Help",
+      "expected_intent": "unclear",
+      "category": "vague"
+    },
+    {
+      "query": "Hi there",
+      "expected_intent": "unclear",
+      "category": "greeting"
+    },
+    {
+      "query": "What?",
+      "expected_intent": "unclear",
+      "category": "vague"
+    },
+    {
+      "query": "I need assistance",
+      "expected_intent": "unclear",
+      "category": "vague"
+    },
+    {
+      "query": "Can you help me?",
+      "expected_intent": "unclear",
+      "category": "vague"
+    },
+    {
+      "query": "Question",
+      "expected_intent": "unclear",
+      "category": "vague"
+    },
+    {
+      "query": "Something is wrong",
+      "expected_intent": "unclear",
+      "category": "vague"
+    }
+  ]
+}
