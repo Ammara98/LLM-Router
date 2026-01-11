@@ -28,7 +28,6 @@ llm-router/
 ├── router.py                 # Intent classifier & router
 ├── dtos.py                   # Data models
 ├── main.py                   # CLI interface
-├── demo.py                   # Interactive demo
 ├── evaluate.py               # Model evaluation script
 ├── requirements.txt
 └── .env                      # API keys (not committed)
@@ -88,9 +87,9 @@ GROQ_API_KEY=your_key_here
 
 ## Usage
 
-### Interactive Demo
+### Interactive CLI
 ```bash
-python demo.py
+python main.py
 ```
 
 Test sample queries or type your own:
@@ -99,10 +98,6 @@ Test sample queries or type your own:
 - "Can I return an item?"
 
 _HUMAN IN THE LOOP_: In case of a vague query, it asks for clarification ONE time; if still unclear, it escalates to human.
-### Command Line
-```bash
-python main.py
-```
 
 ### Run Evaluation
 ```bash
