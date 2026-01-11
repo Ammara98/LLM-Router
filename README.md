@@ -16,7 +16,7 @@ Routes customer queries to the right agent using LLM-based intent classification
 ## Project Structure
 
 ```
-llm-router/
+LLM-Router/
 ├── agents/
 │   ├── faq_agent.py          # FAQ handler
 │   └── order_agent.py        # Order tracking handler
@@ -51,13 +51,13 @@ llm-router/
 1. **Clone the repository**
 ```bash
 git clone <your-repo-url>
-cd llm-router
+cd LLM-Router
 ```
 
 2. **Create conda environment**
 ```bash
-conda create -n llm-router python=3.10
-conda activate llm-router
+conda create -n LLM-Router python=3.10
+conda activate LLM-Router
 ```
 
 3. **Install dependencies**
