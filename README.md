@@ -2,6 +2,8 @@
 
 A lightweight Python framework that uses LLMs to intelligently route customer queries to specialized agents.
 
+ **No Specialized Library**: This project implements the routing framework from scratch to better demonstrate architectural decisions and implementation approach. While LangChain could simplify development, building directly with LLM APIs provides clearer insight into the framework design, routing logic, and agent orchestration patterns, which aligns with the assignment's goal of evaluating framework implementation skills.
+
 ## What It Does
 
 Routes customer queries to the right agent using LLM-based intent classification:
